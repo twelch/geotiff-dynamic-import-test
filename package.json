@@ -1,0 +1,20 @@
+{
+  "name": "geotiff-dynamic-import-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-data": "http-server data -c-1 -p 8082 --silent"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "geotiff": "^2.0.5",
+    "http-server": "^0.12.3",
+    "start-server-and-test": "^1.12.5",
+    "tsimportlib": "^0.0.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.8.0"
+  }
+}
